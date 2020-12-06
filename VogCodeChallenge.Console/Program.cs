@@ -21,7 +21,7 @@ namespace VogCodeChallenge.ConsoleApp
 
             Console.WriteLine(TESTModule(1));
             Console.WriteLine(TESTModule(2));
-            Console.WriteLine(TESTModule("2.0f"));
+            Console.WriteLine(TESTModule(2.0f));
             Console.WriteLine(TESTModule("VogApp"));
             Console.WriteLine(TESTModule(12.1212));
             Console.WriteLine(TESTModule(0));
