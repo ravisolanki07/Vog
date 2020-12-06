@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.API", "Vog
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{094FEB13-D764-4A99-B91D-355D00F060C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.ConsoleApp", "VogCodeChallenge.Console\VogCodeChallenge.ConsoleApp.csproj", "{DBA1BC1C-063D-448D-AF3A-DA2AAC728C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{094FEB13-D764-4A99-B91D-355D00F060C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094FEB13-D764-4A99-B91D-355D00F060C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094FEB13-D764-4A99-B91D-355D00F060C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1BC1C-063D-448D-AF3A-DA2AAC728C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1BC1C-063D-448D-AF3A-DA2AAC728C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1BC1C-063D-448D-AF3A-DA2AAC728C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1BC1C-063D-448D-AF3A-DA2AAC728C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
