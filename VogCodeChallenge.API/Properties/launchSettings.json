@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/department/GetAll",
+      "launchUrl": "api/employee/listall",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "VogCodeChallenge.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/department",
+      "launchUrl": "api/employee",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

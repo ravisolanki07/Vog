@@ -17,13 +17,13 @@ namespace VogCodeChallenge.API.Controllers
         }
 
         [HttpGet("GetAll")]
-        public IEnumerable<DepartmentEntity> GetAll()
+        public IEnumerable<Department> GetAll()
         {
             return _departmentService.GetAll();
         }
 
         [HttpGet("ListAll")]
-        public IList<DepartmentEntity> ListAll()
+        public IList<Department> ListAll()
         {
             return _departmentService.ListAll();
         }

@@ -12,13 +12,13 @@ namespace VogCodeChallenge.API.Data.Services
         List<String> listDepartment = new List<string> { "IT", "Networking", "Support", "Finance", "R&D" };
         List<String> listName = new List<string> { "Federer", "Nadal", "Djokovic", "Roddick", "Boppanna" };
 
-        public IEnumerable<DepartmentEntity> GetAll()
+        public IEnumerable<Department> GetAll()
         {
-            return Enumerable.Range(0, 4).Select(index => new DepartmentEntity
+            return Enumerable.Range(0, 4).Select(index => new Department
             {
                 Name = listDepartment[index],
                 Address = index + ", 11 Ave SW Suite 900",
-                EmployeeList = Enumerable.Range(0, 2).Select(indexInner => new EmployeeEntity
+                EmployeeList = Enumerable.Range(0, 2).Select(indexInner => new Employee
                 {
                     FirstName = listName[index],
                     LastName = "Last Name " + index + indexInner,
@@ -28,13 +28,13 @@ namespace VogCodeChallenge.API.Data.Services
             }).ToArray();
         }
 
-        public List<DepartmentEntity> ListAll()
+        public List<Department> ListAll()
         {
-            return Enumerable.Range(0, 4).Select(index => new DepartmentEntity
+            return Enumerable.Range(0, 4).Select(index => new Department
             {
                 Name = listDepartment[index],
                 Address = index + ", 11 Ave SW Suite 900",
-                EmployeeList = Enumerable.Range(1, 2).Select(indexInner => new EmployeeEntity
+                EmployeeList = Enumerable.Range(1, 2).Select(indexInner => new Employee
                 {
                     FirstName = listName[index],
                     LastName = "Last Name " + index + indexInner,

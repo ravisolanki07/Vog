@@ -3,8 +3,8 @@ using VogCodeChallenge.API.Data.Entities;
 
 namespace VogCodeChallenge.API.Data.IServices
 {
-    public interface IDepartmentService : IService<Department>
+    public interface IEmployeeService : IService<Employee>
     {
-        
+
     }
 }

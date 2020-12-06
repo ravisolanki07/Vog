@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace VogCodeChallenge.API.Data.Entities
 {
-    public class DepartmentEntity
+    public class Department
     {
         public string Name { get; set; }
         public string Address { get; set; }
 
-        public List<EmployeeEntity> EmployeeList { get; set; }
+        public List<Employee> EmployeeList { get; set; }
     }
 }
