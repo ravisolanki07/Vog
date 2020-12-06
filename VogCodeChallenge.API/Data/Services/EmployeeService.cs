@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using VogCodeChallenge.API.Data.Entities;
 using VogCodeChallenge.API.Data.IServices;
 
