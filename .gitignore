@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Ravi_vog_backend_codechalleneg
+/VogCodeChallenge.API/bin/Debug/netcoreapp3.1
+/VogCodeChallenge.API/obj
