@@ -5,6 +5,6 @@ namespace VogCodeChallenge.API.Data.IServices
 {
     public interface IEmployeeService : IService<Employee>
     {
-
+        List<Employee> GetByDepartment(string departmentId);
     }
 }
