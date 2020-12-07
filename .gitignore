@@ -8,3 +8,7 @@
 /VogCodeChallenge.Console/obj
 /VogCodeChallenge.Console/bin/Debug/netcoreapp3.1
 /obj/Docker/TargetOS.cache
+/VogCodeChallenge.AwsLambda/obj
+/VogCodeChallenge.AwsLambda/bin/Debug/netcoreapp3.1
+/VogCodeChallenge.AwsLambda/obj
+/obj/Docker
